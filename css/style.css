@@ -638,7 +638,7 @@ h3 {
 
 /*** Single Page Hero Header Start ***/
 .bg-breadcrumb {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/nilo/shea-tree-landscape.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/nilo/shea-tree-canopy.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1765,7 +1765,7 @@ html {
 
 /* Brand colored breadcrumb header */
 .bg-breadcrumb {
-    background: linear-gradient(rgba(164, 74, 35, 0.85), rgba(110, 127, 56, 0.7)), url("../img/nilo/shea-tree-landscape.jpg");
+    background: linear-gradient(rgba(164, 74, 35, 0.85), rgba(110, 127, 56, 0.7)), url("../img/nilo/shea-tree-canopy.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
