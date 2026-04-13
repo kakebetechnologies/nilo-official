@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Blog & Insights - Nilotica Shea</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Nilotica Shea, blog, insights, shea industry, Uganda, shea butter, sustainability, market trends" name="keywords">
+        <meta content="Industry insights, technical guides, and stories from East Africa's Nilotica shea sector. Stay informed on cosmetic formulation trends and sustainable sourcing." name="description">
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://nisa.org/blog.html">
+        <meta property="og:title" content="Blog & Insights - Nilotica Shea">
+        <meta property="og:description" content="Industry insights, technical guides, and stories from East Africa's Nilotica shea sector. Stay informed on cosmetic formulation trends and sustainable sourcing.">
+        <meta property="og:image" content="img/nilo/shea-butter-nuts-bowl.jpg">
+
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://nisa.org/blog.html">
+        <meta property="twitter:title" content="Blog & Insights - Nilotica Shea">
+        <meta property="twitter:description" content="Industry insights, technical guides, and stories from East Africa's Nilotica shea sector. Stay informed on cosmetic formulation trends and sustainable sourcing.">
+        <meta property="twitter:image" content="img/nilo/shea-butter-nuts-bowl.jpg">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" href="img/favicon.png">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+
+        <style>
+            .green-accent-bar {
+                width: 60px;
+                height: 4px;
+                background-color: #6E7F38;
+                border-radius: 2px;
+            }
+            .bg-green-subtle {
+                background-color: #f2f5ea;
+            }
+            .text-green {
+                color: #6E7F38 !important;
+            }
+            .text-amber {
+                color: #C9842F !important;
+            }
+            .section-nature-bg {
+                position: relative;
+                background-size: cover;
+                background-position: center;
+                background-attachment: fixed;
+            }
+            .section-nature-bg::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(244, 241, 235, 0.88);
+            }
+            .section-nature-bg > .container {
+                position: relative;
+                z-index: 1;
+            }
+            .blog-card .card-img-top {
+                height: 220px;
+                object-fit: cover;
+            }
+            .blog-card .card-body {
+                padding: 1.5rem;
+            }
+            .blog-card .blog-date {
+                font-size: 0.85rem;
+                color: #999;
+            }
+            .blog-card .card-title {
+                font-size: 1.1rem;
+                font-weight: 600;
+                line-height: 1.4;
+            }
+            .blog-card .card-text {
+                font-size: 0.92rem;
+                color: #666;
+            }
+            .blog-card .read-more {
+                font-weight: 500;
+                font-size: 0.9rem;
+                text-decoration: none;
+            }
+            .blog-card .read-more:hover {
+                text-decoration: underline;
+            }
+            .featured-article img {
+                height: 100%;
+                min-height: 350px;
+                object-fit: cover;
+            }
+            .category-badge {
+                font-size: 0.78rem;
+                font-weight: 500;
+                padding: 4px 14px;
+                border-radius: 50px;
+                display: inline-block;
+            }
+            .newsletter-form .form-control {
+                border-radius: 50px 0 0 50px;
+                padding: 12px 24px;
+                border: 2px solid #D4C097;
+            }
+            .newsletter-form .btn {
+                border-radius: 0 50px 50px 0;
+                padding: 12px 28px;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Topbar Start -->
+        <div class="container-fluid bg-dark px-5 d-none d-lg-block">
+            <div class="row gx-0 align-items-center" style="height: 45px;">
+                <div class="col-lg-8 text-center text-lg-start mb-lg-0">
+                    <div class="d-flex flex-wrap">
+                        <a href="#" class="text-light me-4"><i class="fas fa-map-marker-alt text-primary me-2"></i>Plot 24 Nakasero Road, Kampala</a>
+                        <a href="tel:+256772458391" class="text-light me-4"><i class="fas fa-phone-alt text-primary me-2"></i>+256 772 458 391</a>
+                        <a href="mailto:info@niloticasheaalliance.com" class="text-light me-0"><i class="fas fa-envelope text-primary me-2"></i>info@niloticasheaalliance.com</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center text-lg-end">
+                    <div class="d-flex align-items-center justify-content-end">
+                        <a href="https://www.facebook.com/NiloticaShea" class="btn btn-light btn-square border rounded-circle nav-fill me-3"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/NiloticaShea" class="btn btn-light btn-square border rounded-circle nav-fill me-3"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/nilotica_shea" class="btn btn-light btn-square border rounded-circle nav-fill me-3"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/company/nilotica-shea-alliance" class="btn btn-light btn-square border rounded-circle nav-fill me-0"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Topbar End -->
+
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-fluid position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 px-lg-5 py-3 py-lg-0">
+                <a href="index.html" class="navbar-brand p-0">
+                    <h1 class="text-primary m-0"><img src="img/logo-nilo.png" alt="Nilotica Shea" style="height: 60px;"></h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="index.html" class="nav-item nav-link">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <a href="products.html" class="nav-item nav-link">Products</a>
+                        <a href="service.html" class="nav-item nav-link">Services</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">More</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="strategy.html" class="dropdown-item">Strategy</a>
+                                <a href="programmes.html" class="dropdown-item">Programmes</a>
+                                <a href="implementation.html" class="dropdown-item">Implementation</a>
+                                <a href="resources.html" class="dropdown-item">Resources</a>
+                                <a href="blog.html" class="dropdown-item active">Blog</a>
+                                <a href="members.html" class="dropdown-item">Become a Member</a>
+                            </div>
+                        </div>
+                        <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                    </div>
+                    <a href="contact.html" class="btn btn-primary rounded-pill text-white py-2 px-4 flex-wrap flex-sm-shrink-0">Find a Supplier</a>
+                </div>
+            </nav>
+        <!-- Navbar End -->
+
+
+        <!-- Breadcrumb Header Start -->
+        <div class="container-fluid bg-breadcrumb">
+            <div class="container text-center py-5" style="max-width: 900px;">
+                <h3 class="text-white display-3 mb-4 wow fadeInDown" data-wow-delay="0.1s">Blog & Insights</h3>
+                <ol class="breadcrumb justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active text-primary">Blog</li>
+                </ol>
+            </div>
+        </div>
+        <!-- Breadcrumb Header End -->
+        </div>
+        <!-- Navbar & Hero End -->
+
+
+        <!-- Intro Section Start -->
+        <div class="container-fluid py-5">
+            <div class="container py-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center wow fadeInUp" data-wow-delay="0.1s">
+                        <h2 class="mb-3">Industry Insights & Stories</h2>
+                        <div class="green-accent-bar mx-auto mb-4"></div>
+                        <p class="text-muted">Stay informed with the latest from Uganda's shea industry — market trends, sustainability stories, and export updates.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Intro Section End -->
+
+
+        <!-- Featured Article Start -->
+        <div class="container-fluid pb-5">
+            <div class="container pb-5">
+                <div class="row g-5 align-items-center featured-article wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="col-lg-6">
+                        <div class="img-hover-zoom rounded overflow-hidden">
+                            <img src="img/nilo/cream-jar-green.jpg" class="img-fluid w-100 rounded" alt="Featured Article">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <span class="category-badge bg-green-subtle text-green mb-3">Cosmetic Science</span>
+                        <p class="blog-date text-muted mt-2 mb-2"><i class="far fa-calendar-alt me-2"></i>March 2026</p>
+                        <h3 class="mb-3">Why Nilotica Shea Butter Is the Premium Choice for Cosmetic Formulators</h3>
+                        <p class="text-muted">With 50-65% oleic acid content and a naturally soft texture at room temperature, Vitellaria Nilotica from East Africa's Nile region is redefining premium cosmetic ingredients. Its superior emolliency and fast absorption make it ideal for luxury skincare, haircare, and sun care formulations.</p>
+                        <a href="#" class="read-more text-primary fw-semibold">Read More <i class="fas fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Featured Article End -->
+
+
+        <!-- Blog Grid Row 1 Start -->
+        <div class="container-fluid pb-5">
+            <div class="container pb-5">
+                <div class="row g-4">
+                    <!-- Article 1 -->
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="card card-lift border-0 shadow-sm h-100 blog-card">
+                            <img src="img/nilo/shea-butter-nuts-bowl.jpg" class="card-img-top" alt="Shea Value Chain">
+                            <div class="card-body">
+                                <span class="category-badge bg-green-subtle text-primary mb-2">Value Chain</span>
+                                <p class="blog-date mt-2 mb-2"><i class="far fa-calendar-alt me-2"></i>February 2026</p>
+                                <h5 class="card-title mb-3">From Co-operative to Cosmetic Lab: The Nilotica Shea Journey</h5>
+                                <p class="card-text">How women-led co-operatives in East Africa collect, process, and deliver premium Vitellaria Nilotica to international cosmetic manufacturers.</p>
+                                <a href="#" class="read-more text-primary">Read More <i class="fas fa-arrow-right ms-2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Article 2 -->
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="card card-lift border-0 shadow-sm h-100 blog-card">
+                            <img src="img/nilo/woman-palm-leaves.jpg" class="card-img-top" alt="Sustainability">
+                            <div class="card-body">
+                                <span class="category-badge bg-green-subtle text-green mb-2">Sustainability</span>
+                                <p class="blog-date mt-2 mb-2"><i class="far fa-calendar-alt me-2"></i>January 2026</p>
+                                <h5 class="card-title mb-3">Ethical Sourcing: Women-Led Co-operatives Powering the Shea Industry</h5>
+                                <p class="card-text">The Nilotica Shea Alliance partners with women-led co-operatives to ensure fair trade, quality traceability, and sustainable harvesting practices.</p>
+                                <a href="#" class="read-more text-primary">Read More <i class="fas fa-arrow-right ms-2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Article 3 -->
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="card card-lift border-0 shadow-sm h-100 blog-card">
+                            <img src="img/nilo/shea-oil-pipette.jpg" class="card-img-top" alt="Market Access">
+                            <div class="card-body">
+                                <span class="category-badge bg-green-subtle text-amber mb-2">Market Access</span>
+                                <p class="blog-date mt-2 mb-2"><i class="far fa-calendar-alt me-2"></i>December 2025</p>
+                                <h5 class="card-title mb-3">Technical Guide: Nilotica Shea Specifications for Cosmetic Formulators</h5>
+                                <p class="card-text">Understanding oleic acid content, melting points, and free fatty acid levels — key data for integrating Nilotica shea into your formulations.</p>
+                                <a href="#" class="read-more text-primary">Read More <i class="fas fa-arrow-right ms-2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Blog Grid Row 1 End -->
+
+
+
+        <!-- Newsletter CTA Start -->
+        <div class="container-fluid section-nature-bg py-5" style="background-image: url('img/nilo/shea-butter-nuts-bowl.jpg');">
+            <div class="container py-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 text-center wow fadeInUp" data-wow-delay="0.1s">
+                        <h2 class="mb-3">Stay Updated</h2>
+                        <p class="text-muted mb-4">Subscribe to receive product updates, technical data sheets, and partnership opportunities from the Nilotica Shea Alliance.</p>
+                        <form class="newsletter-form d-flex justify-content-center">
+                            <input type="email" class="form-control" placeholder="Enter your email" style="max-width: 350px;">
+                            <button type="submit" class="btn btn-primary text-white">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Newsletter CTA End -->
+
+
+        <!-- Footer Start -->
+        <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <div class="footer-logo mb-4">
+                                <h4 class="text-light mb-0"><img src="img/logo-nilo.png" alt="Nilotica Shea" style="height: 70px; filter: brightness(10);"></h4>
+                            </div>
+                            <p>The Nilotica Shea Alliance (NiSA) is dedicated to building a sustainable, competitive, and inclusive shea industry in Uganda.</p>
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-share fa-2x text-white me-2"></i>
+                                <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href="https://www.facebook.com/NiloticaShea"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href="https://twitter.com/NiloticaShea"><i class="fab fa-twitter"></i></a>
+                                <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href="https://www.instagram.com/nilotica_shea"><i class="fab fa-instagram"></i></a>
+                                <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href="https://www.linkedin.com/company/nilotica-shea-alliance"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="mb-4 text-white">Quick Links</h4>
+                            <a href="about.html"><i class="fas fa-angle-right me-2"></i> About</a>
+                            <a href="products.html"><i class="fas fa-angle-right me-2"></i> Products</a>
+                            <a href="service.html"><i class="fas fa-angle-right me-2"></i> Services</a>
+                            <a href="strategy.html"><i class="fas fa-angle-right me-2"></i> Strategy</a>
+                            <a href="programmes.html"><i class="fas fa-angle-right me-2"></i> Programmes</a>
+                            <a href="blog.html"><i class="fas fa-angle-right me-2"></i> Blog</a>
+                            <a href="contact.html"><i class="fas fa-angle-right me-2"></i> Contact</a>
+                            <a href="members.html"><i class="fas fa-angle-right me-2"></i> Become a Member</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="mb-4 text-white">Our Products</h4>
+                            <a href="products.html"><i class="fas fa-angle-right me-2"></i> Crude Shea Butter</a>
+                            <a href="products.html"><i class="fas fa-angle-right me-2"></i> Refined Shea Butter</a>
+                            <a href="products.html"><i class="fas fa-angle-right me-2"></i> Shea Oil</a>
+                            <a href="products.html"><i class="fas fa-angle-right me-2"></i> Shea Nilotica Soap</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="mb-4 text-white">Contact Info</h4>
+                            <a href=""><i class="fa fa-map-marker-alt me-2"></i> Plot 24 Nakasero Road, Kampala</a>
+                            <a href="mailto:info@niloticasheaalliance.com"><i class="fas fa-envelope me-2"></i> info@niloticasheaalliance.com</a>
+                            <a href="mailto:support@niloticasheaalliance.com"><i class="fas fa-envelope me-2"></i> support@niloticasheaalliance.com</a>
+                            <a href="tel:+256772458391"><i class="fas fa-phone me-2"></i> +256 772 458 391</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Copyright Start -->
+        <div class="container-fluid copyright py-4">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <div class="col-md-6 text-center text-md-start mb-md-0">
+                        <span class="text-white"><a href="#"><i class="fas fa-copyright text-light me-2"></i>Nilotica Shea Alliance</a>, All rights reserved.</span>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end text-white">
+                        Designed By <a class="border-bottom" href="https://kakebe.tech">Kakebe Technologies</a> | <a class="border-bottom" href="#">Nilotica</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright End -->
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>
+
+
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+
+    </body>
+
+</html>

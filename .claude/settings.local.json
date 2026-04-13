@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls \"c:/Users/SEDRICK/Documents/GitHub/ Nilotica/\"*.html)",
+      "Bash(sed -i 's/info@niloticashea\\\\.com/info@niloticasheaalliance.com/g' index.html about.html products.html service.html contact.html blog.html strategy.html programmes.html implementation.html resources.html)",
+      "Bash(sed -i 's/support@niloticashea\\\\.com/support@niloticasheaalliance.com/g' index.html about.html products.html service.html contact.html blog.html strategy.html programmes.html implementation.html resources.html)",
+      "Bash(grep -l \"NiSA\" *.html)",
+      "Bash(mv \"19 Cosmetic Cream Mockup copy.jpg\" \"cream-jar-gold-lid.jpg\")",
+      "Bash(mv \"Cosmetic Botle Mockup.jpg\" \"shea-bottle-mockup.jpg\")",
+      "Bash(mv \"Cosmetic Cream Mockup 01 copy.jpg\" \"cream-jar-green.jpg\")",
+      "Bash(mv \"Cream tube copy.jpg\" \"shea-cream-tube.jpg\")",
+      "Bash(mv \"natural-shea-butter-.jpg\" \"shea-nut-closeup.jpg\")"
+    ]
+  }
+}
