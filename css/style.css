@@ -2137,13 +2137,13 @@ html {
 
 .partner-logo-item img {
     max-width: 100%;
-    filter: grayscale(100%);
-    opacity: 0.8;
+    filter: none;
+    opacity: 1;
     transition: all 0.3s ease;
 }
 
 .partner-logo-item:hover img {
-    filter: grayscale(0%);
+    filter: none;
     opacity: 1;
 }
 
